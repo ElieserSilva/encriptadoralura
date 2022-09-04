@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-VE">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador | Alura-Challenge Desafio 1</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <section>
+        <article>
+            <header>
+                <img src="./src/aluraLogo.png" alt="logo del Encriptador">
+                <h1>Encriptador</h1>
+            </header>
+            <form name="captura">
+                <textarea name="textoAencriptar" placeholder="Insertar Texto..."></textarea>
+                <div>
+                    <span><img src="./src/info.png" class="icono" alt="icono de informacion">  solo letras min&uacute;sculas y sin acento.</span>
+                    <span>
+                        <button>encriptar</button>
+                        <button>desencriptar</button>
+                    </span>
+                </div>
+            </form>
+        </article>
+        <aside>
+            <form name="resultado" class="hidden">
+                <textarea name="textoEncriptado"></textarea>
+                <!-- <input type="text" name=""> -->
+                <button>Copiar</button>
+            </form>
+            <div class="content">
+                <img src="./src/Muñeco.png" alt="un muñeco sentado de color azul diseñado por alura">
+                <h2>No has escrito ningun texto aún</h2>
+                <p>escribe algo para poder encriptarlo o desencriptarlo.</p>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        <p>
+            Creado por <b>@eliesersilvar</b> para el challenge de Desafio 1 en Logica de <b>Alura Latam + Oracle Next Education.</b>
+        </p>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
