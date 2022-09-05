@@ -6,13 +6,7 @@ const dic_decrypLetter = [
 const dic_encrypLetter = [
     "ai", "enter", "imes", "ober", "ufat"
 ];
-/**
- * * esto es importante
- * TODO: esta es una tarea
- * ! esto es una advertencia
- * ? como es posible
- * @param text esto es un parametro
- */
+
 function encrypText(text) {
     let result = text;
 
